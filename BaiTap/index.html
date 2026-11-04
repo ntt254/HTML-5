@@ -4,26 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sơ Đồ Khung Bố Cục Trang Web</title>
+    <title>Sơ Đồ Khung Bố Cục</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
-
         <nav>
-
         </nav>
     </header>
 
     <div class="container">
         <main>
-
             <section>
+                <article></article>
+                <article>
+                    <h3></h3>
+                    <form class="form-demo" action="#" method="get">
 
-                <article></article>
-                <article></article>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="a@fpt.edu.vn" required autofocus>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="date">Ngày sinh </label>
+                            <input type="date" id="date" name="date">
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="time">Giờ hẹn</label>
+                            <input type="time" id="time" name="time">
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="color">Màu yêu thích</label>
+                            <input type="color" id="color" name="color" value="#008080">
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="number">Số lượng</label>
+                            <input type="number" id="number" name="number" min="1" max="10" step="1" value="1">
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="range">Mức độ hài lòng</label>
+                            <input type="range" id="range" name="range" min="1" max="100" value="50">
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="files">Đính kèm nhiều file</label>
+                            <input type="file" id="files" name="files" multiple>
+                        </div>
+
+                        <button type="submit" class="btn-submit">Gửi Form</button>
+                    </form>
+                    <h2>
+                        <video width="320" height="240" controls>
+                            <source src="video.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ thẻ video.
+                        </video>
+
+                        <audio controls>
+                            <source src="audio.mp3" type="audio/mpeg">
+                            Trình duyệt của bạn không hỗ trợ thẻ audio.
+                        </audio>
+                    </h2>
+                </article>
             </section>
         </main>
 
