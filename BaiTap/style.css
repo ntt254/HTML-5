@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f4f4f9;
+}
+
+header, nav, main, section, article, aside, footer {
+    border: 2px solid #333;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+header {
+    background-color: #ffd166;
+}
+
+nav {
+    background-color: #06d6a0;
+    margin-top: 10px;
+}
+
+/* Khung chứa main và aside nằm ngang */
+.container {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}
+
+main {
+    flex: 3;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section {
+    flex: 1;
+    background-color: #e0fbfc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+article {
+    background-color: #98c1d9;
+    padding: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: #ff9f1c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #118ab2;
+    color: white;
+}
+
