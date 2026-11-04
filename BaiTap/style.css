@@ -73,3 +73,73 @@ footer {
     color: white;
 }
 
+/* Định dạng cho Form 2.0 */
+.form-demo {
+    margin-top: 15px;
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    text-align: left;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #222;
+}
+
+.form-group code {
+    background-color: #eee;
+    padding: 2px 5px;
+    border-radius: 3px;
+    color: #d62828;
+}
+
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group input[type="time"],
+.form-group input[type="number"],
+.form-group input[type="file"] {
+    padding: 8px 10px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-group input[type="color"] {
+    width: 60px;
+    height: 36px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group input[type="range"] {
+    cursor: pointer;
+}
+
+.btn-submit {
+    padding: 10px 15px;
+    background-color: #118ab2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn-submit:hover {
+    background-color: #073b4c;
+}
